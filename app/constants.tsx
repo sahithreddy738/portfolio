@@ -47,7 +47,7 @@ export const PROJECT_DETAILS = [
     ],
   },
   {
-    toLink: "https://github.com/sahithreddy738/VidStream",
+    toLink: "https://vid-stream-tau.vercel.app/",
     projectImage: VideoImg,
     projectName: "VideoStreaming",
     projectDescription:
