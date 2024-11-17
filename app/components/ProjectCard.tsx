@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 
 interface ProjectCardProps {
-  toLink:string,
+  toLink:string;
   projectImage: StaticImageData;
   projectName: string;
   projectDescription: string;
