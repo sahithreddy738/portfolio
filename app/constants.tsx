@@ -1,4 +1,4 @@
-import NetflixImg from "./public/NetflixAppimg1.png";
+import NetflixImg from "./public/NetflixAppImg1.png";
 import VideoImg from "./public/VideoAppImg1.png";
 import DevImg from "./public/DevAppImg1.png";
 import ResumeImg from "./public/resumeImg.png";
