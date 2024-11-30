@@ -6,6 +6,7 @@ import ReactImg from "./public/certificateImg2.png";
 import NodeImg from "./public/certificateImg1.png";
 import BOOK_FINDER from "./public/BookFinder.png";
 import MOVIES_SEARCH from "./public/MoviesSearch.png";
+import TASKIFY_IMG from "./public/taskifyImg.png";
 export const SELF_INTRO =
   "a passionate Full Stack Developer with a strong focus on building dynamic and scalable web applications. I specialize in creating user-friendly, responsive interfaces while ensuring seamless functionality on the backend. With a deep understanding of modern web development practices, I take pride in delivering efficient and maintainable solutions. I’m always eager to take on new challenges, learn emerging technologies, and collaborate on innovative projects. Let's work together to bring your ideas to life!";
 export const SKILLS = [
@@ -27,15 +28,34 @@ export const SKILLS = [
 ];
 export const PROJECT_DETAILS = [
   {
-    toLink:"https://vid-stream-tau.vercel.app/",
+    toLink: "https://taskify-trello-sable.vercel.app/",
+    projectImage: TASKIFY_IMG,
+    projectName: "Taskify",
+    projectDescription:
+      "Created Taskify, a Trello-like project management app leveraging Next.js 14, Tailwind CSS, Prisma (MySQL), Stripe integration, Zod for validation, React Query for efficient data handling, and ShadCN UI for a sleek user interface.",
+    projectTech: [
+      "Nextjs",
+      "Prisma",
+      "Tailwind",
+      "Stripe",
+      "Mysql",
+      "Zod",
+      "React Query",
+      "shadcnui",
+      "clerk",
+      "dnd(drag & drop)"
+    ],
+  },
+  {
+    toLink: "https://vid-stream-tau.vercel.app/",
     projectImage: VideoImg,
     projectName: "VideoStreaming",
     projectDescription:
       "Frontend Application a Youtube like clone that streams videos",
-    projectTech: ["React", "Tailwind", "Redux", "CSS", "Javascript"]
+    projectTech: ["React", "Tailwind", "Redux", "CSS", "Javascript"],
   },
   {
-    toLink:"https://github.com/sahithreddy738?tab=repositories",
+    toLink: "https://github.com/sahithreddy738?tab=repositories",
     projectImage: DevImg,
     projectName: "DevConnector",
     projectDescription: "FullStack Application that connects developers",
@@ -47,10 +67,10 @@ export const PROJECT_DETAILS = [
       "MongoDb",
       "Tailwind",
       "Jwt",
-    ]
+    ],
   },
   {
-    toLink:"https://netflix-gpt-five-lac.vercel.app/",
+    toLink: "https://netflix-gpt-five-lac.vercel.app/",
     projectImage: NetflixImg,
     projectName: "Netflix-GPT",
     projectDescription: "Frontend Application that recommends movies using gpt",
@@ -61,22 +81,23 @@ export const PROJECT_DETAILS = [
       "Firebase",
       "CSS",
       "Javascript",
-    ]
+    ],
   },
   {
-    toLink:"https://movies-kgeomvkbz-sahith-reddys-projects-c66a3cbe.vercel.app/",
+    toLink:
+      "https://movies-kgeomvkbz-sahith-reddys-projects-c66a3cbe.vercel.app/",
     projectImage: MOVIES_SEARCH,
     projectName: "Movies-Search",
     projectDescription: "React Applications to search movies",
-    projectTech: ["React", "Tailwind", "Css", "Html", "Javascript"]
+    projectTech: ["React", "Tailwind", "Css", "Html", "Javascript"],
   },
   {
-    toLink:"https://book-finder-liard.vercel.app/",
+    toLink: "https://book-finder-liard.vercel.app/",
     projectImage: BOOK_FINDER,
     projectName: "Book-Finder",
     projectDescription: "React Applications to find books and their details",
-    projectTech: ["React", "Tailwind", "Css", "Html", "Javascript"]
-  }
+    projectTech: ["React", "Tailwind", "Css", "Html", "Javascript"],
+  },
 ];
 export const RESUME_DETAILS = [
   {
